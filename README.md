@@ -18,6 +18,7 @@ Javascript Babel Practice
 ```
 npm init -y
 ```
+
 </br>
 
 ### 2) babel-cli 설치
@@ -27,7 +28,8 @@ babel-cli 설치 명령어
 npm install --save-dev babel-cli
 ```
 -g : 글로벌 옵션, --save-dev : 프로젝트 폴더에 설치하는 옵션
-<br/>
+
+</br>
 
 
 ### 3) npm script로 babel 코드 변경 자동화
@@ -39,6 +41,7 @@ package.json 파일 수정
 }
 ```
 ./public/src 경로에 존재하는 .js 코드를 설정한 es 버전에 맞게 변경하여 ./public/lib 경로에 생성
+
 </br>
 
 
@@ -53,6 +56,7 @@ js 파일을 원하는 버전으로 변경하기 위한 옵션 파일 생성
   "plugins": [],
 }
 ```
+
 </br>
 
 
@@ -70,6 +74,7 @@ npm install --save-dev babel-preset-es2015
   "plugins": [],
 }
 ```
+
 </br>
 
 
@@ -78,6 +83,7 @@ npm install --save-dev babel-preset-es2015
 ```
 npm run build
 ```
+
 </br>
 
 
