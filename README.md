@@ -108,3 +108,11 @@ Babel 이 잘 작동하는지 확인한다.
 ```
 npm run build
 ```
+
+## 3. 프로그램 사용 방법
+1) 로컬에 파일을 저장한다.
+2) package.json 의 devDependencies 를 설치하기 위해 아래 명령어를 실행한다.
+```
+npm install --save
+```
+3) ./public/src 디렉터리 내의 .js 파일을 수정한다.
